@@ -1,11 +1,13 @@
+<h2>link:https://uyunz.vercel.app/</h2>
+
 # College Portal - Student Management System
 
-A comprehensive React-based college portal that manages student profiles, attendance, notes, notices, timetables, feed, and doubt discussions. Built with React, Tailwind CSS, and modern UI components.
+A comprehensive React-based college portal that manages student profiles, a notes, notices, timetables, feed, and doubt discussions. Built with React, Tailwind CSS, and modern UI components.
 
 ## Features
 
 ### 🎯 Dashboard
-- **Statistics Overview**: Total students, positive processes, attendance metrics, performance tracking
+- **Live updates of classroom**: 
 - **Today's Schedule**: Real-time class schedule with time slots and room information
 - **Recent Student Doubts**: Quick access to latest student questions and discussions
 - **Quick Actions**: Fast access to common tasks like uploading notes, marking attendance, posting notices
