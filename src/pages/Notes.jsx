@@ -258,6 +258,8 @@ const Notes = () => {
         </CardContent>
       </Card>
 
+      <div className='bg-blue-400 mx-70 border-2 border-red-700'>add subject-wise notes section here</div>
+
       {/* Notes Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
         {filteredNotes.map((note) => (

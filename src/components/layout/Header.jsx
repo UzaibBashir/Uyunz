@@ -27,9 +27,9 @@ const Header = ({ title = "Welcome, Prof. Smith!" }) => {
               <Button variant="ghost" className="flex items-center space-x-2 hover:bg-gray-100">
                 <Avatar className="w-8 h-8">
                   <AvatarImage src="/api/placeholder/32/32" alt="Prof. Smith" />
-                  <AvatarFallback>PS</AvatarFallback>
+                  <AvatarFallback>63</AvatarFallback>
                 </Avatar>
-                <span className="text-sm font-medium text-gray-700">A freame</span>
+                <span className="text-sm font-medium text-gray-700">230363</span>
                 <ChevronDown className="w-4 h-4 text-gray-500" />
               </Button>
             </DropdownMenuTrigger>

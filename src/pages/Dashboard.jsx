@@ -8,29 +8,29 @@ import { Users, HelpCircle, Calendar, TrendingUp } from 'lucide-react';
 const Dashboard = () => {
   const stats = [
     {
-      title: 'Total Students',
-      subtitle: 'Pre dacte',
-      value: '120',
+      title: 'Discrete Maths',
+      subtitle: 'ongoing',
+      value: '15:00 min',
       icon: Users,
       iconColor: 'text-blue-600'
     },
     {
-      title: 'Positive Process',
-      subtitle: 'Process',
-      value: '8',
+      title: 'Graphics',
+      subtitle: 'next',
+      value: '12:00',
       icon: HelpCircle,
       iconColor: 'text-green-600'
     },
     {
-      title: 'Attendance',
-      subtitle: 'Today facility',
-      value: '3 classes',
+      title: 'to-be-filled',
+      subtitle: 'to-be-filled',
+      value: 'to-be-filled',
       icon: Calendar,
       iconColor: 'text-purple-600'
     },
     {
       title: 'Performance',
-      subtitle: 'Attendance',
+      subtitle: 'Classes Attended: 3',
       value: '79%',
       icon: TrendingUp,
       iconColor: 'text-orange-600'
@@ -54,11 +54,11 @@ const Dashboard = () => {
       </div>
 
       {/* Main Content Grid */}
+      <QuickActions />
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Left Column */}
         <div className="space-y-6">
           <TodaySchedule />
-          <QuickActions />
         </div>
 
         {/* Right Column */}

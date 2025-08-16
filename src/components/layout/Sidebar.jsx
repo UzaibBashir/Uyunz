@@ -19,12 +19,12 @@ const Sidebar = () => {
   const navigationItems = [
     { name: 'Dashboard', path: '/dashboard', icon: Home },
     { name: 'Notes', path: '/notes', icon: Upload },
-    { name: 'Attendance', path: '/attendance', icon: Calendar },
-    { name: 'Score and Analytics', path: '/students', icon: GraduationCap },
     { name: 'Doubts', path: '/doubts', icon: MessageCircleQuestion },
     { name: 'NoticeBoard', path: '/notices', icon: FileText },
-    { name: 'Analytics', path: '/analytics', icon: BarChart3 },
+    { name: 'Feed', path: '/attendance', icon: Calendar },
+    { name: 'TimeTable', path: '/analytics', icon: BarChart3 },
     { name: 'Profile', path: '/profile', icon: User },
+    { name: 'About', path: '/students', icon: GraduationCap },
   ];
 
   const isActive = (path) => {
@@ -34,7 +34,7 @@ const Sidebar = () => {
   return (
     <div className="w-64 bg-slate-800 text-white min-h-screen flex flex-col">
       {/* Logo/Brand */}
-      <div className="p-6 border-b border-slate-700">
+      <div className="p-5 border-b border-slate-700">
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
             <GraduationCap className="w-5 h-5 text-white" />
@@ -44,7 +44,7 @@ const Sidebar = () => {
       </div>
 
       {/* Navigation */}
-      <nav className="flex-1 px-4 py-6">
+      <nav className="flex-1 px-4 py-5">
         <ul className="space-y-2">
           {navigationItems.map((item) => {
             const Icon = item.icon;
@@ -68,7 +68,7 @@ const Sidebar = () => {
       </nav>
 
       {/* Settings at bottom */}
-      <div className="p-4 border-t border-slate-700">
+      <div className="p-2 border-t border-slate-700">
         <Link
           to="/settings"
           className={`flex items-center space-x-3 px-4 py-3 rounded-lg transition-colors duration-200 ${

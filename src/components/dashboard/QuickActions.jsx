@@ -18,8 +18,8 @@ const QuickActions = () => {
       path: '/notes'
     },
     {
-      title: 'Mark Attendance',
-      description: 'Record student attendance',
+      title: 'Ask Doubt',
+      description: 'Ask doubt instantly',
       icon: MapPin,
       color: 'bg-green-500 hover:bg-green-600',
       iconBg: 'bg-green-100',
@@ -36,8 +36,8 @@ const QuickActions = () => {
       path: '/notices'
     },
     {
-      title: 'Enter Marks',
-      description: 'Update student grades',
+      title: 'Draw Poll',
+      description: 'voting for the decisions',
       icon: Edit,
       color: 'bg-orange-500 hover:bg-orange-600',
       iconBg: 'bg-orange-100',
@@ -56,7 +56,7 @@ const QuickActions = () => {
         <CardTitle className="text-lg font-semibold text-gray-900">Quick Actions</CardTitle>
       </CardHeader>
       <CardContent>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-4">
           {actions.map((action, index) => {
             const Icon = action.icon;
             return (

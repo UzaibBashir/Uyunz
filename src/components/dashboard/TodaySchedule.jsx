@@ -5,25 +5,39 @@ import { Clock, MapPin } from 'lucide-react';
 const TodaySchedule = () => {
   const scheduleItems = [
     {
-      time: '8:00 AM',
-      endTime: '7:00 PM',
-      subject: 'Algorithms 05',
-      room: 'E/17',
-      status: 'upcoming'
+      time: '10:15 AM',
+      endTime: '11:00 AM',
+      subject: 'Discrete Maths',
+      room: 'A4',
+      status: 'done'
     },
     {
-      time: '10:00 AM',
-      endTime: '7:09 PM',
+      time: '11:00 AM',
+      endTime: '11:45 AM',
       subject: 'Data Structures',
-      room: 'E/17',
+      room: 'Lab',
       status: 'current'
     },
     {
-      time: '9:00 PM',
-      endTime: '9:08 PM',
+      time: '11:45 AM',
+      endTime: '12:30 PM',
       subject: 'Operating Systems',
-      room: 'E/17',
+      room: 'A4',
       status: 'upcoming'
+    },
+    {
+      time: '12:30 PM',
+      endTime: '01:15 PM',
+      subject: 'Algorithms',
+      room: 'A4',
+      status: 'upcoming'
+    },
+    {
+      time: '01:15 PM',
+      endTime: '01:45 PM',
+      subject: 'Lunch',
+      room: 'report back',
+      status: 'pending'
     }
   ];
 

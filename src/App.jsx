@@ -34,10 +34,9 @@ function App() {
           </Layout>
           } 
         />
-
-        <Route path="/students" element={
-          <Layout title="Student Management">
-            <Students />
+        <Route path="/notes" element={
+          <Layout title="Notes Management">
+            <Notes />
           </Layout>
         } />
         <Route path="/attendance" element={
@@ -46,11 +45,7 @@ function App() {
           </Layout>
         } />
 
-        <Route path="/notes" element={
-          <Layout title="Notes Management">
-            <Notes />
-          </Layout>
-        } />
+        
         
         <Route path="/notices" element={
           <Layout title="Notices">
@@ -85,6 +80,12 @@ function App() {
         <Route path="/feed" element={
           <Layout title="Feed">
             <Feed />
+          </Layout>
+        } />
+
+        <Route path="/students" element={
+          <Layout title="Student Management">
+            <Students />
           </Layout>
         } />
       </Routes>
