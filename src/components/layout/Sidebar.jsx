@@ -23,7 +23,7 @@ const Sidebar = () => {
     { name: 'Score and Analytics', path: '/students', icon: GraduationCap },
     { name: 'Doubts', path: '/doubts', icon: MessageCircleQuestion },
     { name: 'NoticeBoard', path: '/notices', icon: FileText },
-    // { name: 'Analytics', path: '/analytics', icon: BarChart3 },
+    { name: 'Analytics', path: '/analytics', icon: BarChart3 },
     { name: 'Profile', path: '/profile', icon: User },
   ];
 
